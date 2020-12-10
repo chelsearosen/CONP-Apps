@@ -13,4 +13,21 @@ Chest x-ray images were pulled from the ["Chest X-Ray Images (Pneumonia)"][1] da
 for our project. We used 40 images to train the models and 40 images to test the models. In each set of data, we had 20 x-ray images of normal lungs and 20 x-ray 
 images of lungs with pneumonia. 
 
+## Functions
+The team created three different functions to pull features from the x-ray images to create the machine learning models. A description of each function follows. 
+### LungScan
+text
+### Sml2Lrg
+text
+### ChestInt
+text
+
+## Pulling Features from X-ray Images
+
+## Machine Learning Models
+### Decision Tree (DT) Model
+### K-Nearest Neighbors (kNN) Model
+### Linear Discriminant Analysis (LDA) Model
+### LungModels
+
 [1]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
