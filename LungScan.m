@@ -1,6 +1,6 @@
 function LungScanFinal = LungScan(I)
-Team Name: CONP Apps
 
+% Team Name: CONP Apps
 % Group Members:Chelsea,Omar,Nico,Peyton
 % Course: BME3053C Computer Applications for BME
 % Term: Fall 2020
