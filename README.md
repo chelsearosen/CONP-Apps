@@ -48,10 +48,12 @@ Our kNN model looks at the 10 closest neighbors to the data point to create a pr
 <img src="RMImages/kNNModel.png" height="250"/>
 
 ### Linear Discriminant Analysis (LDA) Model
+The LDA model estimates the mean and variance of each category to make a prediction about the classification of other inputs. Our LDA model is the live script titled LungLDA.mlx. The inputs are the TrainData.mat and TestData.mat files. The outputs will be the accuracy of the model, the misclassification rate, a scatter plot to visulaize the data points that are being misclassified, and the confusion matrix of the predictions made by the LDA model. With the images we used to train and test the data, our LDA model is 80% accurate. 
 
 <img src="RMImages/LDAModel.png" height="250"/>
 
 ### LungModels
+The LungModels.mlx live script allows the user to compare the decision boundaries of each model to each other. The inputs are the TrainData.mat and TestData.mat files. The outputs include a scatter plot of the training data and the decision boundaries of each of the three models.  
 
 ![](RMImages/Models.png)
 
