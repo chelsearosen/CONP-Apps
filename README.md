@@ -47,6 +47,9 @@ The DT model makes various decisions in a flowchart like manner to classify the 
 ![](RMImages/kNNModel.png)
 
 ### Linear Discriminant Analysis (LDA) Model
+
+![](RMImages/LDAModel.png)
+
 ### LungModels
 
 [1]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
