@@ -23,8 +23,12 @@ text
 text
 
 ## Pulling Features from X-ray Images
+The uploaded script, PropertiesLung.m, is used to pull appropriate features from the x-ray images in order to create the machine learning model. To use this script,
+load the Training Data and Testing Data folders into MATLAB and then run the script accordingly. The output will be two .mat files, TrainData.mat and TestData.mat. 
 
 ## Machine Learning Models
+We created three different models in order to see which would be the most accurate. A description of the decision tree, k-nearest neighbors, and linear discriminant analysis models created follows. 
+
 ### Decision Tree (DT) Model
 ### K-Nearest Neighbors (kNN) Model
 ### Linear Discriminant Analysis (LDA) Model
