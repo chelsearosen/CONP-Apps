@@ -30,6 +30,8 @@ load the Training Data and Testing Data folders into MATLAB and then run the scr
 We created three different models in order to see which would be the most accurate. A description of the decision tree, k-nearest neighbors, and linear discriminant analysis models created follows. 
 
 ### Decision Tree (DT) Model
+The DT model makes various decisions in a flowchart like manner to classify the input. Our decision tree model is the live script titled LungDT.mlx. The inputs are the TrainData.mat and TestData.mat files. The outputs will be a visualization of the decision tree, the accuracy of the model, the misclassification rate, a scatter plot to visulaize the data points that are being misclassified, and the confusion matrix of the predictions made by the DT. With the images we used to train and test the data, our DT model is 67.5% accurate. 
+
 ### K-Nearest Neighbors (kNN) Model
 ### Linear Discriminant Analysis (LDA) Model
 ### LungModels
