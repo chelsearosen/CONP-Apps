@@ -43,6 +43,9 @@ The DT model makes various decisions in a flowchart like manner to classify the 
 ![](RMImages/DTModel.png)
 
 ### K-Nearest Neighbors (kNN) Model
+
+![](RMImages/kNNModel.png)
+
 ### Linear Discriminant Analysis (LDA) Model
 ### LungModels
 
