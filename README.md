@@ -52,4 +52,6 @@ The DT model makes various decisions in a flowchart like manner to classify the 
 
 ### LungModels
 
+![](RMImages/Models.png)
+
 [1]:https://www.kaggle.com/paultimothymooney/chest-xray-pneumonia
