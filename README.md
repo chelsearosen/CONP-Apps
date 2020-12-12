@@ -18,17 +18,19 @@ The team created three different functions to pull features from the x-ray image
 ### LungScan
 text
 
-![](RMImages/LungScan.png)
+<img src="RMImages/LungScan.png" height="200"/>
+
 
 ### Sml2Lrg
 text
 
-![](RMImages/Sml2Lrg.png)
+<img src="RMImages/Sml2Lrg.png" height="200"/>
+
 
 ### ChestInt
 text
 
-![](RMImages/ChestInt.png)
+<img src="RMImages/ChestInt.png" height="200"/>
 
 ## Pulling Features from X-ray Images
 The uploaded script, PropertiesLung.m, is used to pull appropriate features from the x-ray images in order to create the machine learning model. To use this script,
@@ -44,11 +46,11 @@ The DT model makes various decisions in a flowchart like manner to classify the 
 
 ### K-Nearest Neighbors (kNN) Model
 
-![](RMImages/kNNModel.png)
+<img src="RMImages/kNNModel.png" height="250"/>
 
 ### Linear Discriminant Analysis (LDA) Model
 
-![](RMImages/LDAModel.png)
+<img src="RMImages/LDAModel.png" height="250"/>
 
 ### LungModels
 
