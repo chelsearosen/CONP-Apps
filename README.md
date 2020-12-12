@@ -17,10 +17,18 @@ images of lungs with pneumonia. The exact images used can be found in the 'Train
 The team created three different functions to pull features from the x-ray images to create the machine learning models. A description of each function follows. 
 ### LungScan
 text
+
+![](RMImages/LungScan.png)
+
 ### Sml2Lrg
 text
+
+![](RMImages/Sml2Lrg.png)
+
 ### ChestInt
 text
+
+![](RMImages/ChestInt.png)
 
 ## Pulling Features from X-ray Images
 The uploaded script, PropertiesLung.m, is used to pull appropriate features from the x-ray images in order to create the machine learning model. To use this script,
