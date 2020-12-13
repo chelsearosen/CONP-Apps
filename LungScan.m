@@ -4,7 +4,7 @@ function LungScanFinal = LungScan(I)
 % Group Members:Chelsea,Omar,Nico,Peyton
 % Course: BME3053C Computer Applications for BME
 % Term: Fall 2020
-% J. Cratron Pruitt Family Department of Biomedical Engineering
+% J. Crayton Pruitt Family Department of Biomedical Engineering
 % University of Florida
 
 %Functions results in a B&W Picture where inside of lungs are white and outside(or
