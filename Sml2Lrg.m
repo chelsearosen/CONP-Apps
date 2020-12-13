@@ -1,5 +1,14 @@
 function ratio = Sml2Lrg(I)
-% establishes a function that will find the ratio of the small lung in LungScan versus the large lung in LungScan;
+
+% Team Name: CONP Apps
+% Group Members:Chelsea,Omar,Nico,Peyton
+% Course: BME3053C Computer Applications for BME
+% Term: Fall 2020
+% J. Crayton Pruitt Family Department of Biomedical Engineering
+% University of Florida
+
+% Establishes a function that will find the ratio of the small lung in LungScan versus the large lung in LungScan;
+
     F = LungScan(I);
     % Uses LungScan which shows the area of the lungs that are darker, or don't have pneumonia
     t = 0;
