@@ -22,7 +22,7 @@ text
 <img src="RMImages/LungScan.png" height="200"/>
 
 ### Sml2Lrg
-text
+Sml2Lrg splits the binary Lungscan image into two images, one containing the enclosed left lung and the other the right lung. The function then finds the number of non-zero elements in each image, and divides the smaller number by the larger. Essentially this function establishes a ratio between the area of the smaller to the area of the larger lung.
 
 <img src="RMImages/Sml2Lrg.png" height="200"/>
 
