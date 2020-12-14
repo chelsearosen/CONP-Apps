@@ -17,7 +17,7 @@ for our project. We used 40 images to train the models and 40 images to test the
 ## Functions
 The team created three different functions to pull features from the x-ray images to create the machine learning models. A description of each function follows. 
 ### LungScan
-text
+Lungscan processes the raw chest xray and removes the border of the image, it then binarizes the lung region and identifies darker healthy looking portions of the lung and creates a binary mask of these areas by closing the isolated area. Then the binary image is analyzed using regionprops and all smaller white specks not within the lungs like darker regions of the spine and outside potions that could be cloud the data are removed, resulting in the output: a binary mask over the healthy looking portions of the lungs. 
 
 <img src="RMImages/LungScan.png" height="200"/>
 
@@ -27,7 +27,7 @@ Sml2Lrg splits the binary Lungscan image into two images, one containing the enc
 <img src="RMImages/Sml2Lrg.png" height="200"/>
 
 ### ChestInt
-text
+ChestInt used edge detection and image closing on the raw xray in order to create a binary mask covering the entire torso region of the image. the regionprops function is then used here to find the centroid of this mask and the image is cropped to be from 1/3 of the centroid value to 2/3 of the centroid value in both height and width. The average intensity of this cropped image is then taken for the final output of this function. Because pneumonia lungs are more cloudy than regular lungs, pneumonia images will result in typically higher average intensities.
 
 <img src="RMImages/ChestInt.png" height="200"/>
 
